@@ -1,0 +1,23 @@
+;-------------------------------------------------------------------------------
+; Main loop here
+;-------------------------------------------------------------------------------
+Copy the following code.
+.text                           ; program start
+            .global _main		    ; define entry point
+
+_main:
+
+			NOP
+			NOP
+			NOP
+
+
+Mainloop:
+			NOP
+			NOP
+			NOP
+
+
+            jmp     Mainloop                ; jump to the Mainloop label
+
+
